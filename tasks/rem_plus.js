@@ -18,8 +18,14 @@ module.exports = function(grunt) {
   grunt.registerMultiTask('rem_plus', 'px change to rem', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
-      punctuation: '.',
-      separator: ', '
+      punctuation: '\n\r',
+      separator: ', ',
+      rem: 18,
+      min: 3,
+      dpr: 2,
+      exclude: [
+        'background', 'background-size'
+      ]
     });
 
     // Iterate over all specified file groups.
@@ -35,7 +41,10 @@ module.exports = function(grunt) {
         }
       }).map(function(filepath) {
         // Read file source.
-        return grunt.file.read(filepath);
+        var content =  grunt.file.read(filepath);
+        var result = rem(content, f, options);
+
+        return result;
       }).join(grunt.util.normalizelf(options.separator));
 
       // Handle options.

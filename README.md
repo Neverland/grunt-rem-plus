@@ -26,6 +26,10 @@ In your project's Gruntfile, add a section named `rem_plus` to the data object p
 grunt.initConfig({
   rem_plus: {
     options: {
+      dist: {
+          src: ['./demo.css'],
+          dest: './dist/aio.css'
+      }
       // Task-specific options go here.
     },
     your_target: {
@@ -74,6 +78,12 @@ grunt.initConfig({
     options: {
       separator: ': ',
       punctuation: ' !!!',
+      rem: 18,
+      min: 3,
+      dpr: 2,
+      exclude: [
+        'background', 'background-size'
+      ]
     },
     files: {
       'dest/default_options': ['src/testing', 'src/123'],
