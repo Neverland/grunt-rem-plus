@@ -1,0 +1,49 @@
+{
+  "name": "grunt-rem-plus",
+  "description": "px change to rem",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Neverland/grunt-rem-plus",
+  "author": {
+    "name": "ienix",
+    "email": "enix@foxmail.com",
+    "url": "https://github.com/Neverland/"
+  },
+  "keywords": [
+    "gruntplugin",
+    "rem",
+    "grunt",
+    "px to rem",
+    "px2rem",
+    "grunt rem",
+    "grunt px2rem",
+    "grunt px to rem"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Neverland/grunt-rem-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neverland/grunt-rem-plus/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Neverland/grunt-rem-plus/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "dependencies": {
+    "rem-core": "0.0.3"
+  }
+}
