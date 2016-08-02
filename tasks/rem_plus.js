@@ -19,13 +19,7 @@ module.exports = function(grunt) {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       punctuation: '\n\r',
-      separator: ', ',
-      rem: 18,
-      min: 3,
-      dpr: 2,
-      exclude: [
-        'background', 'background-size'
-      ]
+      separator: ', '
     });
 
     // Iterate over all specified file groups.

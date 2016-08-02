@@ -44,6 +44,6 @@
     "grunt": "~0.4.5"
   },
   "dependencies": {
-    "rem-core": "0.0.3"
+    "rem-core": "0.0.5"
   }
 }
