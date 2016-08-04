@@ -1,7 +1,7 @@
 {
   "name": "grunt-rem-plus",
   "description": "px change to rem",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/Neverland/grunt-rem-plus",
   "author": {
     "name": "ienix",
@@ -44,6 +44,6 @@
     "grunt": "~0.4.5"
   },
   "dependencies": {
-    "rem-core": "0.0.5"
+    "rem-core": "0.0.7"
   }
 }

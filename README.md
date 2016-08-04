@@ -81,7 +81,7 @@ grunt.initConfig({
       rem: 18,
       min: 3,
       dpr: 2,
-      fontSize2Rem: false // default: true 
+      fontSize2Rem: false, // default: true 
       exclude: [
         'background', 'background-size'
       ]
