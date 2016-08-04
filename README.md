@@ -81,6 +81,7 @@ grunt.initConfig({
       rem: 18,
       min: 3,
       dpr: 2,
+      fontSize2Rem: false // default: true 
       exclude: [
         'background', 'background-size'
       ]
@@ -91,6 +92,9 @@ grunt.initConfig({
   },
 });
 ```
+
+### Web bowser runtime js
+taobao [flexible.js](https://github.com/amfe/lib-flexible)
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
